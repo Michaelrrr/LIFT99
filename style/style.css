@@ -1,0 +1,596 @@
+@font-face {
+	font-family: 'PP Right Gothic SpatialFine';
+	src: url('../fonts/PP_Right_Gothic/PPRightGothic-SpatialFine.eot');
+	src: local('☺'), url('../fonts/PP_Right_Gothic/PPRightGothic-SpatialFine.woff') format('woff'), url('../fonts/PP_Right_Gothic/PPRightGothic-SpatialFine.ttf') format('truetype'), url('../fonts/PP_Right_Gothic/PPRightGothic-SpatialFine.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PP Right Gothic MediumItalic';
+	src: url('../fonts/PP_Right_Gothic/PPRightGothic-MediumItalic.eot');
+	src: local('☺'), url('../fonts/PP_Right_Gothic/PPRightGothic-MediumItalic.woff') format('woff'), url('../fonts/PP_Right_Gothic/PPRightGothic-MediumItalic.ttf') format('truetype'), url('../fonts/PP_Right_Gothic/PPRightGothic-MediumItalic.svg') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'PP Right Gothic Medium';
+	src: url('../fonts/PP_Right_Gothic/PPRightGothic-Medium.eot');
+	src: local('☺'), url('../fonts/PP_Right_Gothic/PPRightGothic-Medium.woff') format('woff'), url('../fonts/PP_Right_Gothic/PPRightGothic-Medium.ttf') format('truetype'), url('../fonts/PP_Right_Gothic/PPRightGothic-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* --------------------- Main Tags --------------------- */
+
+body {
+    color: #fff;
+    background-color: #201F1E;
+}
+.book_a_visit,
+main,
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+}
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: 'PP Right Gothic Medium', Helvetica, Arial;
+}
+h2 {
+    font-family: 'PP Right Gothic SpatialFine', Helvetica, Arial;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 72px;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+}
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+}
+h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 36px;
+}
+h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 23px;
+}
+p,
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+}
+button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 54px;
+    word-spacing: 0.07em;
+    background-color: #FECE4A;
+    height: 60px;
+}
+.button {
+    border: none;
+    text-transform: uppercase;
+    width: 215px;
+}
+.thin_font {
+    font-family: 'PP Right Gothic SpatialFine';
+}
+.italic_font {
+    font-family: 'PP Right Gothic MediumItalic';
+}
+
+/* --------------------- Header --------------------- */
+
+.header_article {
+    padding-top: 100px;
+}
+.lift_logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.burger_menu {
+    margin-top: 75px;
+    margin-right: 75px;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header_article {
+    font-size: 124px;
+    width: 820px;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+#header_article_first_item {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#header_article_second_item {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+#header_article_third_item {
+    display: flex;
+    align-items: center;
+}
+#header_article_forth_item {
+    margin-left: 75px;
+}
+#header_article_fifth_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 760px;
+    margin-left: 20px;
+}
+.line {
+    display: block;
+    position: relative;
+    width: 175px;
+    top: 62px;
+}
+.line::before,
+.line::after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+}
+.header_image {
+    width: 200px;
+    height: 100%;
+    margin: 0 20px;
+}
+
+/* Book a visit */
+
+.book_a_visit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book_a_visit img {
+    width: 125px;
+}
+.book_a_visit h4 {
+    width: 340px;
+    margin-left: 200px;
+}
+
+/* --------------------- What is LIFT99 --------------------- */
+
+.what_is_lift {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.what_is_lift p {
+    width: 355px;
+}
+.what_is_lift article {
+    width: 40%;
+}
+.what_is_lift_circle_picture {
+    height: 200px;
+    align-self: center;
+}
+.what_is_lift_pictures {
+    position: relative;
+}
+.what_is_lift_pictures img {
+    position: absolute;
+}
+#what_is_lift_picture_1 {
+    height: 220px;
+    top: 50px;
+}
+#what_is_lift_picture_2 {
+    height: 160px;
+    top: 250px;
+    left: 350px;
+}
+#what_is_lift_picture_3 {
+    height: 180px;
+    top: 255px;
+    left: 80px;
+}
+#what_is_lift_picture_4 {
+    height: 210px;
+    top: 90px;
+    left: 270px;
+}
+#what_is_lift_picture_5 {
+    height: 115px;
+    left: 140px;
+}
+#what_is_lift_picture_6 {
+    height: 250px;
+    top: 155px;
+    left: 220px;
+}
+#what_is_lift_picture_7 {
+    height: 190px;
+    top: 60px;
+    left: 315px;
+}
+#what_is_lift_picture_8 {
+    height: 210px;
+    top: 50px;
+}
+#what_is_lift_first_article_p {
+    margin-left: 85px;
+}
+#what_is_lift_first_article_p h3{
+    margin-bottom: 65px;
+}
+#what_is_lift_second_article_p {
+    margin-top: 480px;
+}
+
+/* --------------------- Projects created by LIFT99 --------------------- */
+
+.projects_by_lift,
+#accelerate_with_us_div_1,
+#network_with_us_article {
+    width: 1160px;
+    margin-top: 200px;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#projects_by_lift_first_article {
+    margin-right: 35px;
+}
+#projects_by_lift_first_article img {
+    height: 320px;
+}
+#projects_by_lift_first_article h2 {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#projects_by_lift_second_article h6 {
+    margin-top: 8px;
+}
+#projects_by_lift_h2_2 {
+    margin: 30px 0px 30px 130px;
+}
+#projects_by_lift_p_1 {
+    margin-top: 40px;
+    width: 350px;
+}
+#projects_by_lift_p_2 {
+    width: 365px;
+}
+#projects_by_lift_p_3 {
+    width: 455px;
+    margin-top: 75px;
+}
+#projects_by_lift_position_div {
+    display: flex;
+    flex-direction: row;
+}
+#projects_by_lift_position_div_1,
+#projects_by_lift_position_div_2,
+#projects_by_lift_position_div_3,
+#projects_by_lift_position_div_4 {
+    margin-top: 30px;
+    margin-left: 290px;
+}
+#projects_by_lift_position_div_1 {
+    margin-left: 55px;
+}
+#projects_by_lift_position_div_3 {
+    margin-left: 420px;
+}
+.projects_by_lift_button {
+    width: 240px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background: transparent;
+    color: #FECE4A;
+    border-color: #FECE4A;
+}
+
+/* --------------------- Accelerate with us --------------------- */
+
+.accelerate_with_us {
+    position: relative;
+}
+#accelerate_with_us_div_1 p {
+    width: 670px;
+    margin-top: 65px;
+}
+#accelerate_with_us_div_1 img {
+    height: 220px;
+    margin-right: 75px;
+}
+.about_our_people {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#accelerate_with_us_div_2 {
+    margin-top: 65px;
+    position: absolute;
+    width: 1460px;
+    left: -120px;
+}
+#accelerate_with_us_div_2 p {
+    width: 410px;
+    margin-top: 16px;
+}
+#accelerate_with_us_div_2 h4 {
+    position: absolute;
+}
+#accelerate_with_us_div_2 img,
+.get_a_job img {
+    width: 730px;
+}
+#accelerate_with_us_div_2 article {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+#roman_and_stacy h4 {
+    top: 485px;
+    left: 780px;
+}
+#oleh_bolotnov h4 {
+    top: 1040px;
+    left: 550px;
+}
+#julia_and_vitalik h4 {
+    top: 1610px;
+    left: 780px;
+}
+
+/* --------------------- Network with us --------------------- */
+
+.network_with_us {
+    margin-top: 1930px;
+}
+#network_with_us_article img {
+    height: 220px;
+}
+#network_with_us_article p {
+    width: 710px;
+    margin-top: 65px;
+}
+#network_with_us_desks {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.network_with_us_desk_item {
+    height: 655px;
+    width: 485px;
+    background-color: #121211;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.network_with_us_desk_item img {
+    height: 390px;
+    width: 385px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.network_with_us_desk_item p {
+    width: 362px;
+    margin-top: 7px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+#book_a_visit_2 {
+    margin-left: 505px;
+    margin-top: 855px;
+}
+
+/* --------------------- We love likeminded people --------------------- */
+
+.we_love {
+    margin-top: 215px;
+}
+.we_love h4 {
+    width: 485px;
+    margin-top: 50px;
+    margin-left: 620px;
+}
+.we_love span {
+    font-size: 124px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.we_love img {
+    height: 115px;
+}
+.we_love_span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#we_love_img_3 {
+    margin-left: 12px;
+}
+
+/* --------------------- Get a job --------------------- */
+
+.get_a_job {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 1460px;
+    left: 30px;
+    margin-top: 200px;
+}
+.get_a_job p {
+    width: 400px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+.get_a_job article {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+#get_a_job_button_2 {
+    background: transparent;
+    color: #FECE4A;
+}
+
+/* --------------------- Mingle with us --------------------- */
+
+.mingle_with_us {
+    width: 1160px;
+    margin-top: 900px;
+    margin-left: 2.5%;
+}
+.mingle_with_us p {
+    width: 800px;
+    margin-top: 65px;
+}
+.mingle_with_us img {
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.mingle_with_us article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 95px;
+}
+.mingle_with_us_humans {
+    height: 360px;
+    width: 360px;
+    background-color: #121211;
+}
+.mingle_with_us_humans img {
+    height: 225px;
+    width: 300px;
+    margin: 30px 30px 20px 30px;
+}
+#mingle_with_us_humans_1 {
+    height: 745px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#mingle_with_us_humans_1 img {
+    height: 430px;
+    margin-bottom: 10px;
+}
+.mingle_with_us_humans article {
+    width: 300px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.small_line {
+    display: block;
+    position: relative;
+    width: 100px;
+    top: 10px;
+}
+.small_line::before,
+.small_line::after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 0.2px;
+}
+.mingle_with_us_span_14px {
+    font-size: 18px;
+    line-height: 32px;
+}
+.mingle_with_us_span_14px {
+    font-size: 14px;
+    line-height: 6px;
+}
+#mingle_with_us_span_how_to_1 {
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+.mingle_with_us_div_of_article {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mingle_with_us_span_humans_of_2 {
+    margin-top: 16px;
+}
+#mingle_with_us_divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+}
+
+/* Contact us */
+
+.contact_us {
+    width: 1160px;
+    margin-top: 195px;
+    margin-left: 2.5%;
+}
+.contact_us p {
+    width: 380px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+.contact_us a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact_us a:hover {
+    color: #FECE4A;
+}
+#contact_us_tel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 55px;
+}
+#contact_us_instagram {
+    margin-left: 15px;
+}
