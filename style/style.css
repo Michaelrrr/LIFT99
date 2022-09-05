@@ -122,9 +122,11 @@ button {
 }
 .header_article {
     font-size: 124px;
-    width: 820px;
+    width: 1060px;
     margin-top: 25px;
-    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #header_article_first_item {
     display: flex;
